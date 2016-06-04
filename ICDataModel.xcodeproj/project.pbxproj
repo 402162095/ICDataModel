@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3CCB451D033730005ECB01 /* ICDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CCB441D033730005ECB01 /* ICDataModel.m */; };
 		8A4409731D02FD3900144845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409721D02FD3900144845 /* main.m */; };
 		8A4409761D02FD3900144845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409751D02FD3900144845 /* AppDelegate.m */; };
 		8A4409791D02FD3900144845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409781D02FD3900144845 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		8A4409811D02FD3900144845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A44097F1D02FD3900144845 /* LaunchScreen.storyboard */; };
 		8A44098C1D02FD3A00144845 /* ICDataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A44098B1D02FD3A00144845 /* ICDataModelTests.m */; };
 		8A4409971D02FD3A00144845 /* ICDataModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409961D02FD3A00144845 /* ICDataModelUITests.m */; };
-		8A4409A61D02FD9000144845 /* ICDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409A51D02FD9000144845 /* ICDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A3CCB431D033730005ECB01 /* ICDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDataModel.h; sourceTree = "<group>"; };
+		8A3CCB441D033730005ECB01 /* ICDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDataModel.m; sourceTree = "<group>"; };
 		8A44096E1D02FD3900144845 /* ICDataModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICDataModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4409721D02FD3900144845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A4409741D02FD3900144845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		8A4409921D02FD3A00144845 /* ICDataModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICDataModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4409961D02FD3A00144845 /* ICDataModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICDataModelUITests.m; sourceTree = "<group>"; };
 		8A4409981D02FD3A00144845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A4409A41D02FD9000144845 /* ICDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICDataModel.h; sourceTree = "<group>"; };
-		8A4409A51D02FD9000144845 /* ICDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A3CCB421D033713005ECB01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CCB431D033730005ECB01 /* ICDataModel.h */,
+				8A3CCB441D033730005ECB01 /* ICDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8A4409651D02FD3900144845 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +113,7 @@
 		8A4409701D02FD3900144845 /* ICDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				8A4409A41D02FD9000144845 /* ICDataModel.h */,
-				8A4409A51D02FD9000144845 /* ICDataModel.m */,
+				8A3CCB421D033713005ECB01 /* Model */,
 				8A4409741D02FD3900144845 /* AppDelegate.h */,
 				8A4409751D02FD3900144845 /* AppDelegate.m */,
 				8A4409771D02FD3900144845 /* ViewController.h */,
@@ -278,7 +286,7 @@
 				8A4409791D02FD3900144845 /* ViewController.m in Sources */,
 				8A4409761D02FD3900144845 /* AppDelegate.m in Sources */,
 				8A4409731D02FD3900144845 /* main.m in Sources */,
-				8A4409A61D02FD9000144845 /* ICDataModel.m in Sources */,
+				8A3CCB451D033730005ECB01 /* ICDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
