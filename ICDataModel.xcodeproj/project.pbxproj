@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50F180C313E83A7F3769175F /* libPods-ICDataModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B51E2DB9E5991DF3FD6B2DDD /* libPods-ICDataModel.a */; };
 		8A3CCB451D033730005ECB01 /* ICDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3CCB441D033730005ECB01 /* ICDataModel.m */; };
 		8A4409731D02FD3900144845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409721D02FD3900144845 /* main.m */; };
 		8A4409761D02FD3900144845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4409751D02FD3900144845 /* AppDelegate.m */; };
@@ -54,6 +55,9 @@
 		8A4409921D02FD3A00144845 /* ICDataModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICDataModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4409961D02FD3A00144845 /* ICDataModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICDataModelUITests.m; sourceTree = "<group>"; };
 		8A4409981D02FD3A00144845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64907F267F04F5B8C334EA7 /* Pods-ICDataModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICDataModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICDataModel/Pods-ICDataModel.release.xcconfig"; sourceTree = "<group>"; };
+		B51E2DB9E5991DF3FD6B2DDD /* libPods-ICDataModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICDataModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5139015182EC7A3537DCACB /* Pods-ICDataModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICDataModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICDataModel/Pods-ICDataModel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F180C313E83A7F3769175F /* libPods-ICDataModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,8 @@
 				8A44098A1D02FD3A00144845 /* ICDataModelTests */,
 				8A4409951D02FD3A00144845 /* ICDataModelUITests */,
 				8A44096F1D02FD3900144845 /* Products */,
+				A971C81B614C1CB2B86DAE06 /* Pods */,
+				DAED7D1A9864E7FDA9016D98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +160,23 @@
 			path = ICDataModelUITests;
 			sourceTree = "<group>";
 		};
+		A971C81B614C1CB2B86DAE06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5139015182EC7A3537DCACB /* Pods-ICDataModel.debug.xcconfig */,
+				A64907F267F04F5B8C334EA7 /* Pods-ICDataModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAED7D1A9864E7FDA9016D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51E2DB9E5991DF3FD6B2DDD /* libPods-ICDataModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A44099B1D02FD3A00144845 /* Build configuration list for PBXNativeTarget "ICDataModel" */;
 			buildPhases = (
+				119D2A5CC655A910E357D2E9 /* 📦 Check Pods Manifest.lock */,
 				8A44096A1D02FD3900144845 /* Sources */,
 				8A44096B1D02FD3900144845 /* Frameworks */,
 				8A44096C1D02FD3900144845 /* Resources */,
+				9B2E708672030DF2E2D8D486 /* 📦 Embed Pods Frameworks */,
+				19BDA68F2B5B8030479EDD56 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		119D2A5CC655A910E357D2E9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19BDA68F2B5B8030479EDD56 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICDataModel/Pods-ICDataModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2E708672030DF2E2D8D486 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICDataModel/Pods-ICDataModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A44096A1D02FD3900144845 /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		8A44099C1D02FD3A00144845 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5139015182EC7A3537DCACB /* Pods-ICDataModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICDataModel/Info.plist;
@@ -436,6 +512,7 @@
 		};
 		8A44099D1D02FD3A00144845 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64907F267F04F5B8C334EA7 /* Pods-ICDataModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICDataModel/Info.plist;
