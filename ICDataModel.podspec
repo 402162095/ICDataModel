@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ICDataModel"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "ICDataModel is Will change the dictionary as the object"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ICDataModel", "ICDataModel/Model/*.{h,m}"
  
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "ICDataModel/Model/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
