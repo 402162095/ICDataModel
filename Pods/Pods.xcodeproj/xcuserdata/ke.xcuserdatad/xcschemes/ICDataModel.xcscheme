@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B7D7CB11DF5D68A4710AC2412FF501AD'
+               BlueprintIdentifier = 'D1EE7B099F7FB30930880AE3257F9AE1'
                BlueprintName = 'ICDataModel'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libICDataModel.a'>

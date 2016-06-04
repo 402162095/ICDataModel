@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32F141A4F6D512CA04552E35816C1BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649576BEDBD4B669BDB7536F14D565F6 /* main.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		50489EC8DD1E8EF986C54F3CFFA08C07 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D7AB7B83EAB70DB0CA339F1EE1BF29 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A19637ECFB91910976F0369FAF20382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFBF9F4A8566ACA9D46B59ED561C0B0 /* ViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9CF7AD65D63A75488A4DD86D8F6C5DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 604A8456E1379FC538F234325D0FCEEC /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F4F196D6CE7C6F995DD31D852D98A68 /* ICDataModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F99B18F15877411F99B7359DBD232C /* ICDataModel-dummy.m */; };
+		6A7C6FBF80FA4234BE6BE5E70711D4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		A14BED4E97798EECCC74BA94C356A9B0 /* Pods-ICDataModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850AE4860C7B31FB34FFC0B40026FF78 /* Pods-ICDataModel-dummy.m */; };
-		AFF5FBB57080308809AC08D5C09165AE /* ICDataModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE73B8EC43B064494CF290E6D32AC86 /* ICDataModel-dummy.m */; };
+		ADAB2C74323A2BFE7877838FF1B9A5FD /* ICDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FF9F2AC05EC7DC03BAB393F54F36AF /* ICDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3F4BCE3F6B4823A223690C117EC7A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E0825354F4133ECF0CF94FCBA74502E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E58795A78434227C091771C1A26691E3 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E683D2F94B50B659CF741B00AC754DE9 /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDB0FAB1F8777854DA7E3B14AD73109C /* ICDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48279026AAC41F3D8716478AA6AD34 /* ICDataModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,47 +20,44 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B7D7CB11DF5D68A4710AC2412FF501AD;
+			remoteGlobalIDString = D1EE7B099F7FB30930880AE3257F9AE1;
 			remoteInfo = ICDataModel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFBF9F4A8566ACA9D46B59ED561C0B0 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ICDataModel/ViewController.m; sourceTree = "<group>"; };
-		0EE73B8EC43B064494CF290E6D32AC86 /* ICDataModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICDataModel-dummy.m"; sourceTree = "<group>"; };
 		26E483FC71639B06CEF3F28D6C5650E9 /* Pods-ICDataModel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDataModel-acknowledgements.plist"; sourceTree = "<group>"; };
 		36E09B6E7503B69D2BD8F236541C7E74 /* Pods-ICDataModel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICDataModel-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44BCBF7AA796BAF903EFED3BB045AB71 /* ICDataModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDataModel-prefix.pch"; sourceTree = "<group>"; };
+		3A48279026AAC41F3D8716478AA6AD34 /* ICDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDataModel.m; path = ICDataModel/Model/ICDataModel.m; sourceTree = "<group>"; };
+		40CEECE340C6BDF8E41C9C8E8321FADB /* ICDataModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICDataModel.xcconfig; sourceTree = "<group>"; };
 		45B8C21A9980FDC04AA35B94DA7C6C1C /* Pods-ICDataModel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICDataModel-frameworks.sh"; sourceTree = "<group>"; };
 		4C23D6E7D56FF025CB00BF8082F80AB3 /* Pods-ICDataModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDataModel.release.xcconfig"; sourceTree = "<group>"; };
-		604A8456E1379FC538F234325D0FCEEC /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ICDataModel/AppDelegate.m; sourceTree = "<group>"; };
-		649576BEDBD4B669BDB7536F14D565F6 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ICDataModel/main.m; sourceTree = "<group>"; };
+		67F99B18F15877411F99B7359DBD232C /* ICDataModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICDataModel-dummy.m"; sourceTree = "<group>"; };
 		6889B87AD001F3432CA13DFB45649026 /* libPods-ICDataModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICDataModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F49034C940D41683B2F6B606ACA1D69 /* Pods-ICDataModel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICDataModel-resources.sh"; sourceTree = "<group>"; };
 		850AE4860C7B31FB34FFC0B40026FF78 /* Pods-ICDataModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICDataModel-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95C3A3B1CB7BCFD3D7ED12A827FAF48D /* Pods-ICDataModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDataModel.debug.xcconfig"; sourceTree = "<group>"; };
 		9D84C0E08A8F14AFBB05330A7C26DC7D /* libICDataModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libICDataModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF6049332CB4220489764938A75F7D7 /* ICDataModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDataModel-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E683D2F94B50B659CF741B00AC754DE9 /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ICDataModel/AppDelegate.h; sourceTree = "<group>"; };
-		F6D7AB7B83EAB70DB0CA339F1EE1BF29 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ICDataModel/ViewController.h; sourceTree = "<group>"; };
-		FA04C0C34467B24C358A73F8C32A4AB1 /* ICDataModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICDataModel.xcconfig; sourceTree = "<group>"; };
+		F4FF9F2AC05EC7DC03BAB393F54F36AF /* ICDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDataModel.h; path = ICDataModel/Model/ICDataModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		036FFB12C4CAD8FD02467A62495D01BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0825354F4133ECF0CF94FCBA74502E0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		305AC2E868E9447DD678C4D7CB5ACF59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D3F4BCE3F6B4823A223690C117EC7A23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F57CD473EE60216E4803AE3BF24441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7C6FBF80FA4234BE6BE5E70711D4C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,14 +72,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4E88DF39182F2742D09D2F7EE98A876E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				846C812DF096C747975932E35DCD5C7B /* ICDataModel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		53440EB6640F41E7D8013669EECD06EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,28 +81,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5FACE3CAD12A77F95B0E1EF63679C5F1 /* ICDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF9F2AC05EC7DC03BAB393F54F36AF /* ICDataModel.h */,
+				3A48279026AAC41F3D8716478AA6AD34 /* ICDataModel.m */,
+				6E5494EA070B41016F5E6A3BF22A5241 /* Support Files */,
+			);
+			path = ICDataModel;
+			sourceTree = "<group>";
+		};
+		6E5494EA070B41016F5E6A3BF22A5241 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CEECE340C6BDF8E41C9C8E8321FADB /* ICDataModel.xcconfig */,
+				67F99B18F15877411F99B7359DBD232C /* ICDataModel-dummy.m */,
+				AFF6049332CB4220489764938A75F7D7 /* ICDataModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ICDataModel";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4E88DF39182F2742D09D2F7EE98A876E /* Pods */,
+				E53E25BDBFBF1327661B2178EAE5C1D0 /* Pods */,
 				53440EB6640F41E7D8013669EECD06EB /* Products */,
 				EFDC7F1449425D9BEB8F63890B29B290 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		846C812DF096C747975932E35DCD5C7B /* ICDataModel */ = {
-			isa = PBXGroup;
-			children = (
-				E683D2F94B50B659CF741B00AC754DE9 /* AppDelegate.h */,
-				604A8456E1379FC538F234325D0FCEEC /* AppDelegate.m */,
-				649576BEDBD4B669BDB7536F14D565F6 /* main.m */,
-				F6D7AB7B83EAB70DB0CA339F1EE1BF29 /* ViewController.h */,
-				0DFBF9F4A8566ACA9D46B59ED561C0B0 /* ViewController.m */,
-				EDA704EA6AE38C88361DF36B52B5F48D /* Support Files */,
-			);
-			path = ICDataModel;
 			sourceTree = "<group>";
 		};
 		ABB6416BA583926769C0BAC86FC89526 /* Pods-ICDataModel */ = {
@@ -142,15 +136,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDA704EA6AE38C88361DF36B52B5F48D /* Support Files */ = {
+		E53E25BDBFBF1327661B2178EAE5C1D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA04C0C34467B24C358A73F8C32A4AB1 /* ICDataModel.xcconfig */,
-				0EE73B8EC43B064494CF290E6D32AC86 /* ICDataModel-dummy.m */,
-				44BCBF7AA796BAF903EFED3BB045AB71 /* ICDataModel-prefix.pch */,
+				5FACE3CAD12A77F95B0E1EF63679C5F1 /* ICDataModel */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ICDataModel";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		EFDC7F1449425D9BEB8F63890B29B290 /* Targets Support Files */ = {
@@ -164,12 +155,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CF3740136460D529777BAD5500B765E3 /* Headers */ = {
+		65289EDEAC9F87097C30F103FEA48BD1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58795A78434227C091771C1A26691E3 /* AppDelegate.h in Headers */,
-				50489EC8DD1E8EF986C54F3CFFA08C07 /* ViewController.h in Headers */,
+				ADAB2C74323A2BFE7877838FF1B9A5FD /* ICDataModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,13 +183,13 @@
 			productReference = 6889B87AD001F3432CA13DFB45649026 /* libPods-ICDataModel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B7D7CB11DF5D68A4710AC2412FF501AD /* ICDataModel */ = {
+		D1EE7B099F7FB30930880AE3257F9AE1 /* ICDataModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11020567A7A2FCC871230A6B36692EFB /* Build configuration list for PBXNativeTarget "ICDataModel" */;
+			buildConfigurationList = 0AC0872A59F67B61044ACB40E52FCC77 /* Build configuration list for PBXNativeTarget "ICDataModel" */;
 			buildPhases = (
-				692A9BBB14ABCF04BE004979CF671511 /* Sources */,
-				036FFB12C4CAD8FD02467A62495D01BE /* Frameworks */,
-				CF3740136460D529777BAD5500B765E3 /* Headers */,
+				81B40C3B85A9F1D9A4566A7A004BC1BE /* Sources */,
+				46F57CD473EE60216E4803AE3BF24441 /* Frameworks */,
+				65289EDEAC9F87097C30F103FEA48BD1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -231,21 +221,19 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7D7CB11DF5D68A4710AC2412FF501AD /* ICDataModel */,
+				D1EE7B099F7FB30930880AE3257F9AE1 /* ICDataModel */,
 				B76D1DDA67B558F6E19D7B9C524814F5 /* Pods-ICDataModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		692A9BBB14ABCF04BE004979CF671511 /* Sources */ = {
+		81B40C3B85A9F1D9A4566A7A004BC1BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF7AD65D63A75488A4DD86D8F6C5DF7 /* AppDelegate.m in Sources */,
-				AFF5FBB57080308809AC08D5C09165AE /* ICDataModel-dummy.m in Sources */,
-				32F141A4F6D512CA04552E35816C1BCB /* main.m in Sources */,
-				6A19637ECFB91910976F0369FAF20382 /* ViewController.m in Sources */,
+				2F4F196D6CE7C6F995DD31D852D98A68 /* ICDataModel-dummy.m in Sources */,
+				EDB0FAB1F8777854DA7E3B14AD73109C /* ICDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +251,7 @@
 		F254BF034A9C63F161CF4CC8DA97A8CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICDataModel;
-			target = B7D7CB11DF5D68A4710AC2412FF501AD /* ICDataModel */;
+			target = D1EE7B099F7FB30930880AE3257F9AE1 /* ICDataModel */;
 			targetProxy = B8F574A7EF32B3F4C82C93E919A3360E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -311,9 +299,9 @@
 			};
 			name = Debug;
 		};
-		1F7446BE424378F97F02A63B0F59BBCD /* Debug */ = {
+		36836EE3BA7B036CA070C979CD573BD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA04C0C34467B24C358A73F8C32A4AB1 /* ICDataModel.xcconfig */;
+			baseConfigurationReference = 40CEECE340C6BDF8E41C9C8E8321FADB /* ICDataModel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -331,6 +319,27 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		6699F955BBA7C647CB6A0A94ACF5246B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CEECE340C6BDF8E41C9C8E8321FADB /* ICDataModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ICDataModel/ICDataModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		7107B52D33DDFB0057D055247EAE7B41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -391,27 +400,6 @@
 			};
 			name = Release;
 		};
-		D4784A48DA00D52B2F3798DE4EAA4F96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA04C0C34467B24C358A73F8C32A4AB1 /* ICDataModel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ICDataModel/ICDataModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		D616CCFF6882D31CFAC1354BA222C141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95C3A3B1CB7BCFD3D7ED12A827FAF48D /* Pods-ICDataModel.debug.xcconfig */;
@@ -436,11 +424,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11020567A7A2FCC871230A6B36692EFB /* Build configuration list for PBXNativeTarget "ICDataModel" */ = {
+		0AC0872A59F67B61044ACB40E52FCC77 /* Build configuration list for PBXNativeTarget "ICDataModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7446BE424378F97F02A63B0F59BBCD /* Debug */,
-				D4784A48DA00D52B2F3798DE4EAA4F96 /* Release */,
+				36836EE3BA7B036CA070C979CD573BD9 /* Debug */,
+				6699F955BBA7C647CB6A0A94ACF5246B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
